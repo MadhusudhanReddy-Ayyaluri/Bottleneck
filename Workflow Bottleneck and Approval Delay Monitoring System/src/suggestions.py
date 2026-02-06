@@ -1,13 +1,12 @@
-def generate_suggestions(stage, approver):
-
+def generate_suggestions(pending_count):
     suggestions = []
 
-    if len(stage) > 0 and stage.iloc[0] > 2:
-        suggestions.append("High delay stage → add extra reviewers")
+    if pending_count > 0:
+        suggestions.append("There are pending approvals blocking employees.")
 
-    if len(approver) > 0 and approver.iloc[0] > 2:
-        suggestions.append("Approver overloaded → assign backup approver")
+    if pending_count > 3:
+        suggestions.append("Consider assigning backup approvers.")
 
-    suggestions.append("Prioritize urgent approvals automatically")
+    suggestions.append("Review approvals daily to avoid delays.")
 
     return suggestions
