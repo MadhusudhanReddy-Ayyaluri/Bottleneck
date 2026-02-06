@@ -103,6 +103,26 @@ Fields:
 - approval_status (PENDING / APPROVED)
 
 ---
+# Project Folder Structure
+
+task-bottleneck-system/
+│
+├── dashboard/
+│ └── app.py
+│
+├── src/
+│ ├── db.py
+│ ├── task_assignment.py
+│ ├── task_status.py
+│ ├── approval_requests.py
+│ ├── bottleneck_analysis.py
+│ └── suggestions.py
+│
+├── database/
+│ └── workflow.db
+│
+├── requirements.txt
+└── README.md
 
 # Key Features
 
@@ -165,26 +185,6 @@ Fields:
 
 ---
 
-# Project Folder Structure
-
-task-bottleneck-system/
-│
-├── dashboard/
-│ └── app.py
-│
-├── src/
-│ ├── db.py
-│ ├── task_assignment.py
-│ ├── task_status.py
-│ ├── approval_requests.py
-│ ├── bottleneck_analysis.py
-│ └── suggestions.py
-│
-├── database/
-│ └── workflow.db
-│
-├── requirements.txt
-└── README.md
 
 
 #  How to Run the Project
