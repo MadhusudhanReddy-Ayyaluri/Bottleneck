@@ -1,6 +1,7 @@
 # Task Bottleneck & Approval Tracking System
 <small>
 This project is a role-based task monitoring system that enables organizations to efficiently manage employee tasks, track approval workflows, and identify process bottlenecks through a centralized dashboard, offering real-time visibility, secure role-based access, and enhanced accountability to improve overall operational efficiency and decision-making.
+</small>
 ---
 
 # Problem Statement
