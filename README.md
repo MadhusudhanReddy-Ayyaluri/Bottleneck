@@ -183,8 +183,6 @@ task-bottleneck-system/
 
 ---
 
-
-
 #  How to Run the Project
 
 ### Step 1: Activate virtual environment
